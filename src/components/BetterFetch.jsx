@@ -3,8 +3,8 @@ import axios from "axios";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 const BetterFetch = () => {
-  const client_id = "2af71b269cf04769896f82f33dfc07e1";
-  const redirect_uri = "http://localhost:5173/home";
+  const client_id = "2c5d627bc9cf4778ac7226de71949b4e";
+  const redirect_uri = "http://localhost:5173";
   const auth_endpoint = "https://accounts.spotify.com/authorize";
   const response_type = "token";
   const [searchTracks, setSearchTracks] = useState("baby");
